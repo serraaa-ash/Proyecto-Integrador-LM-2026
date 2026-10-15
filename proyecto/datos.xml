@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Datos de mis 3 guitarras: la mía, la que me gustaría tener y la de Paco de Lucía -->
+<guitarras propietario="serraaa-ash">
+  <guitarra id="G01">
+  </guitarra>
+  <guitarra id="G02">
+  </guitarra>
+  <guitarra id="G03">
+  </guitarra>
+</guitarras>
