@@ -2,9 +2,19 @@
 <!-- Datos de mis 3 guitarras: la mía, la que me gustaría tener y la de Paco de Lucía -->
 <guitarras propietario="serraaa-ash">
   <guitarra id="G01">
+    <marca>Ritmo</marca>
+    <tipo>española</tipo>
+    <precio moneda="EUR">399.99</precio>
   </guitarra>
   <guitarra id="G02">
+    <marca>Modesto Malla</marca>
+    <tipo>flamenca</tipo>
+    <precio moneda="EUR">535.00</precio>
+    <favorita/>
   </guitarra>
   <guitarra id="G03">
+    <marca>Conde Hermanos</marca>
+    <tipo>flamenca</tipo>
+    <precio moneda="EUR">10500.00</precio>
   </guitarra>
 </guitarras>
