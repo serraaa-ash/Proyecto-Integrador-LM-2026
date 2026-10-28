@@ -20,6 +20,19 @@ contexto
 - No tiene bloques div, todo está suelto.
 - No tiene h3, hr, blockquote ni pre.
 
+### Validación W3C
+
+| Página | Errores del validador | Cómo lo corregí |
+|---|---|---|
+| index.html | 0 | No tuvo errores |
+| guitarras.html | 0 | No tuvo errores |
+| guitarristas.html | 0 | No tuvo errores |
+| accesorios.html | 0 | No tuvo errores |
+
+### Qué he hecho en esta unidad
+
+He completado la cabecera del index.html con las meta description, keywords y author, y he reorganizado el body en bloques div con comentarios, títulos h2 y h3, una frase de Paco de Lucía, una ficha con pre y entidades. Después he hecho el mapa del sitio y he creado tres páginas nuevas: guitarras, guitarristas y accesorios. Al final las he validado todas en el W3C y ninguna tenía errores.
+
 ## Mapa del sitio
 
 | Fichero | title | Qué contiene |
