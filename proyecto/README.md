@@ -19,3 +19,12 @@ contexto
 - Le faltan las meta description, keywords y author en el head.
 - No tiene bloques div, todo está suelto.
 - No tiene h3, hr, blockquote ni pre.
+
+## Mapa del sitio
+
+| Fichero | title | Qué contiene |
+|---|---|---|
+| index.html | Inicio \| Guitarras Serrano | Portada: presentación, mis 3 guitarras, una cita de Paco de Lucía y la ficha de mi guitarra |
+| guitarras.html | Mis guitarras \| Guitarras Serrano | Las 3 guitarras de datos.xml con su marca, tipo y precio |
+| guitarristas.html | Guitarristas \| Guitarras Serrano | Guitarristas flamencos que me gustan: Paco de Lucía, Diego del Morao… |
+| accesorios.html | Accesorios \| Guitarras Serrano | Accesorios para tocar la guitarra: cejilla, cuerdas, afinadores… |
