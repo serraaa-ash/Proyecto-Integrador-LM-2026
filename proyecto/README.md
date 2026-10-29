@@ -39,5 +39,5 @@ He completado la cabecera del index.html con las meta description, keywords y au
 |---|---|---|
 | index.html | Inicio \| Guitarras Serrano | Portada: presentación, mis 3 guitarras, una cita de Paco de Lucía y la ficha de mi guitarra |
 | guitarras.html | Mis guitarras \| Guitarras Serrano | Las 3 guitarras de datos.xml con su marca, tipo y precio |
-| guitarristas.html | Guitarristas \| Guitarras Serrano | Guitarristas flamencos que me gustan: Paco de Lucía, Diego del Morao… |
+| guitarristas.html | Guitarristas \| Guitarras Serrano | Guitarristas flamencos que me gustan: Paco de Lucía, Vicente Amigo… |
 | accesorios.html | Accesorios \| Guitarras Serrano | Accesorios para tocar la guitarra: cejilla, cuerdas, afinadores… |
