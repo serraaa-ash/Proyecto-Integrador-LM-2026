@@ -35,6 +35,7 @@ He completado la cabecera del index.html con las meta description, keywords y au
 | guitarras.html | Mis guitarras \| Guitarras Serrano | Las 3 guitarras de datos.xml con su marca, tipo y precio |
 | guitarristas.html | Guitarristas \| Guitarras Serrano | Guitarristas flamencos que me gustan: Paco de Lucía, Vicente Amigo… |
 | accesorios.html | Accesorios \| Guitarras Serrano | Accesorios para tocar la guitarra: cejilla, cuerdas, afinadores… |
+| contacto.html | Contacto \| Guitarras Serrano | Formulario para escribirme con consultas sobre guitarras y flamenco |
 
 ## Palabra del día (UD5)
 día
