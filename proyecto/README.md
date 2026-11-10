@@ -43,3 +43,20 @@ día
 ## UD5 · Tablas y formularios
 En la página guitarras.html voy a poner una tabla comparando varias guitarras españolas y flamencas, con su marca, tipo, madera y precio.
 El formulario de contacto.html servirá para que los visitantes me escriban con consultas sobre guitarras y flamenco.
+
+### Prueba con get
+Al cambiar el formulario a method="get" y pulsar Enviar, la URL quedó así:
+
+http://127.0.0.1:5500/proyecto/contacto.html?nombre=Prueba&email=prueba%40gmail.com&telefono=666666666&nivel=intermedio&tema=comprar&interes=flamenca-blanca&mensaje=Este+mensaje+es+de+prueba#
+
+### Por qué uso post
+Uso post porque con get todo lo que escribes (nombre, correo, teléfono…) sale en la URL y lo puede ver cualquiera. Con post se manda por dentro y no se ve.
+
+### Validación W3C
+| Página | Errores del validador | Cómo lo corregí |
+|---|---|---|
+| guitarras.html | 0 | No tuvo errores |
+| contacto.html | 0 | No tuvo errores |
+
+### Qué he hecho en esta unidad
+He metido en guitarras.html una tabla para comparar cinco guitarras, con rowspan, colspan y todo eso. También he hecho la página de contacto con un formulario para que me escriban, y la he enlazado desde el index. Al final lo he pasado por el validador y no ha dado ningún error.
