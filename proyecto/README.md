@@ -1,11 +1,9 @@
 # Mi proyecto web: Guitarras
-
 - **Nombre:** Antonio Serrano
 - **Usuario de GitHub:** serraaa-ash
 - **Tema:** Guitarras
 
 ## Por qué lo he elegido
-
 Me gusta el mundo de las guitarras porque toco la guitarra flamenca desde hace un año, y creo que lo conozco lo bastante bien como para hacer una web sobre él. En ella quiero enseñar los distintos tipos de guitarras, accesorios y biografías de guitarristas.
 
 ## Qué he hecho en esta entrega
@@ -15,13 +13,11 @@ He hecho el index.html con una presentación mía, una foto de una guitarra espa
 contexto
 
 ## UD3 · Estructura HTML
-
 - Le faltan las meta description, keywords y author en el head.
 - No tiene bloques div, todo está suelto.
 - No tiene h3, hr, blockquote ni pre.
 
 ### Validación W3C
-
 | Página | Errores del validador | Cómo lo corregí |
 |---|---|---|
 | index.html | 0 | No tuvo errores |
@@ -30,11 +26,9 @@ contexto
 | accesorios.html | 0 | No tuvo errores |
 
 ### Qué he hecho en esta unidad
-
 He completado la cabecera del index.html con las meta description, keywords y author, y he reorganizado el body en bloques div con comentarios, títulos h2 y h3, una frase de Paco de Lucía, una ficha con pre y entidades. Después he hecho el mapa del sitio y he creado tres páginas nuevas: guitarras, guitarristas y accesorios. Al final las he validado todas en el W3C y ninguna tenía errores.
 
 ## Mapa del sitio
-
 | Fichero | title | Qué contiene |
 |---|---|---|
 | index.html | Inicio \| Guitarras Serrano | Portada: presentación, mis 3 guitarras, una cita de Paco de Lucía y la ficha de mi guitarra |
@@ -43,5 +37,8 @@ He completado la cabecera del index.html con las meta description, keywords y au
 | accesorios.html | Accesorios \| Guitarras Serrano | Accesorios para tocar la guitarra: cejilla, cuerdas, afinadores… |
 
 ## Palabra del día (UD5)
-
 día
+
+## UD5 · Tablas y formularios
+En la página guitarras.html voy a poner una tabla comparando varias guitarras españolas y flamencas, con su marca, tipo, madera y precio.
+El formulario de contacto.html servirá para que los visitantes me escriban con consultas sobre guitarras y flamenco.
