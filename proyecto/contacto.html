@@ -2,34 +2,62 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contacto | Guitarras Serrano</title>
-  <meta name="description" content="Formulario para escribirme con consultas sobre guitarras y flamenco.">
-  <meta name="keywords" content="contacto, guitarra, flamenco, consultas">
-  <meta name="author" content="Antonio Serrano Hernández">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto | Guitarras Serrano</title>
+    <meta name="description" content="Formulario para escribirme con consultas sobre guitarras y flamenco.">
+    <meta name="keywords" content="contacto, guitarra, flamenco, consultas">
+    <meta name="author" content="Antonio Serrano Hernández">
 </head>
 
 <body>
-  <!-- NAV: aquí irá el menú (UD4) -->
+    <!-- NAV: aquí irá el menú (UD4) -->
 
-  <!-- Cabecera: título y presentación -->
-  <div>
-    <h1>Contacto</h1>
-    <p>Si tienes alguna duda sobre guitarras o flamenco, escríbeme rellenando este formulario.</p>
-  </div>
+    <!-- Cabecera: título y presentación -->
+    <div>
+        <h1>Contacto</h1>
+        <p>Si tienes alguna duda sobre guitarras o flamenco, escríbeme rellenando este formulario.</p>
+    </div>
 
-  <!-- Sección: formulario de contacto -->
-  <div>
-    <h2>Escríbeme</h2>
-    <form action="#" method="post">
-    </form>
-  </div>
+    <!-- Sección: formulario de contacto -->
+    <div>
+        <h2>Escríbeme</h2>
+        <form action="#" method="post">
+            <!-- Bloque 1: datos personales -->
+            <fieldset>
+                <legend>Tus datos</legend>
 
-  <!-- Pie de página -->
-  <div>
-    <p>&copy; 2026 Antonio Serrano</p>
-  </div>
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" maxlength="50" required
+                        autofocus>
+                </p>
+                <p>
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" placeholder="tucorreo@ejemplo.com" required>
+                </p>
+                <p>
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" minlength="9" maxlength="9">
+                </p>
+
+                <p>¿Qué nivel tienes con la guitarra?</p>
+                <p>
+                    <input type="radio" id="nivel-principiante" name="nivel" value="principiante" checked>
+                    <label for="nivel-principiante">Principiante</label>
+                    <input type="radio" id="nivel-intermedio" name="nivel" value="intermedio">
+                    <label for="nivel-intermedio">Intermedio</label>
+                    <input type="radio" id="nivel-avanzado" name="nivel" value="avanzado">
+                    <label for="nivel-avanzado">Avanzado</label>
+                </p>
+            </fieldset>
+        </form>
+    </div>
+
+    <!-- Pie de página -->
+    <div>
+        <p>&copy; 2026 Antonio Serrano</p>
+    </div>
 </body>
 
 </html>
