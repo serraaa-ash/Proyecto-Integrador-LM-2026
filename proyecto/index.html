@@ -3,83 +3,74 @@
 
 <head>
   <meta charset="UTF-8">
-  <!--Antonio Serrano - 13/10/2026-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Inicio | Guitarras Serrano</title>
   <meta name="description" content="Web sobre guitarras españolas y flamencas: flamenco, guitarristas y accesorios.">
   <meta name="keywords" content="guitarra, flamenco, guitarra española, Paco de Lucía">
-  <meta name="author" content="Antonio Serrano Hernández">
+  <meta name="author" content="serraaa-ash">
 </head>
 
 <body>
-  <!-- NAV: aquí irá el menú (UD4) -->
-
-  <!-- Cabecera: título y presentación -->
-  <div>
+  <header>
     <h1>Guitarras Serrano</h1>
-    <p>Bienvenido a mi web, donde hablo sobre el mundo del flamenco y la guitarra</p>
-  </div>
+    <p>Bienvenido a mi web, donde hablo sobre el mundo del flamenco y la guitarra.</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="guitarras.html">Mis guitarras</a></li>
+        <li><a href="guitarristas.html">Guitarristas</a></li>
+        <li><a href="accesorios.html">Accesorios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Sección: quién soy -->
-  <div>
-    <h2>¿Quién soy?</h2>
-    <p>Soy Antonio y toco la <strong>guitarra flamenca</strong>. Conozco bastante sobre este mundo.</p>
-    <p>En esta web quiero compartir distintos <em>tipos de guitarras</em>, <em>accesorios</em> y <em>biografías de
-        guitarristas.</em></p>
-    <img src="img/guitarra.jpg" alt="Guitarra española con cejilla apoyada en una pared con su sombra" width="400">
-  </div>
+  <main>
+    <section>
+      <h2>¿Quién soy?</h2>
+      <p>Soy Antonio y toco la <strong>guitarra flamenca</strong>. Conozco bastante sobre este mundo.</p>
+      <p>En esta web quiero compartir distintos <em>tipos de guitarras</em>, <em>accesorios</em> y <em>biografías de guitarristas.</em></p>
+      <img src="img/guitarra.jpg" alt="Guitarra española con cejilla apoyada en una pared con su sombra" width="400">
+    </section>
 
-  <hr>
-
-  <!-- Sección: mis guitarras -->
-  <div>
-    <h2>Mis 3 guitarras</h2>
-
-    <!-- Subsección: la lista -->
-    <div>
-      <h3>La lista</h3>
+    <section>
+      <h2>Mis 3 guitarras</h2>
       <ul>
         <li>Mi guitarra: Ritmo española</li>
         <li>Una que me gustaría tener: Guitarra “Diego del Morao” Modesto Malla (color rojo)</li>
         <li>La de un artista: Conde Hermanos flamenca, la guitarra que tocaba Paco de Lucía</li>
       </ul>
-    </div>
+    </section>
 
-    <!-- Subsección: enlaces -->
-    <div>
-      <h3>Enlaces</h3>
-      <p>Más información en <a href="https://yotoko.es/" title="Web oficial de Guitarras Modesto Malla">Guitarras
-          Modesto Malla</a>.</p>
-      <p><a href="datos.xml">Ver los datos de mis guitarras en XML</a></p>
-      <p><a href="contacto.html">Escríbeme desde la página de contacto</a></p>
-    </div>
-  </div>
-  <hr>
+    <article>
+      <h2>Guitarra &amp; flamenco: palabras de Paco de Lucía</h2>
+      <blockquote>
+        <p>La guitarra me ha ofrecido la capacidad de poder expresarme con el resto del mundo sin utilizar la palabra.</p>
+        <p>La barriga se sacia rápido, el espíritu no se sacia nunca.</p>
+      </blockquote>
+      <p>— Paco de Lucía</p>
+    </article>
 
-  <!-- Sección: una cita -->
-  <div>
-    <h2>Guitarra &amp; flamenco: palabras de Paco de Lucía</h2>
-    <blockquote>
-      <p>La guitarra me ha ofrecido la capacidad de poder expresarme con el resto del mundo sin utilizar la palabra.</p>
-      <p>La barriga se sacia rápido, el espíritu no se sacia nunca.</p>
-    </blockquote>
-    <p>— Paco de Lucía</p>
-  </div>
-
-  <!-- Sección: ficha de mi guitarra -->
-  <div>
-    <h2>Ficha de mi guitarra</h2>
-    <pre>
+    <article>
+      <h2>Ficha de mi guitarra</h2>
+<pre>
 Marca:     Ritmo
 Tipo:      Española
 Precio:    399,99 &euro;
 </pre>
-  </div>
+    </article>
+  </main>
 
-  <!-- Pie de página -->
-  <div>
+  <aside>
+    <h2>Enlaces</h2>
+    <p>Más información en <a href="https://yotoko.es/" title="Web oficial de Guitarras Modesto Malla">Guitarras Modesto Malla</a>.</p>
+    <p><a href="datos.xml">Ver los datos de mis guitarras en XML</a></p>
+  </aside>
+
+  <footer>
     <p>&copy; 2026 Antonio Serrano &#45; Guitarras Serrano</p>
-  </div>
+    <p id="firma-serraaa-ash">© 2026 serraaa-ash</p>
+  </footer>
 </body>
 
 </html>
