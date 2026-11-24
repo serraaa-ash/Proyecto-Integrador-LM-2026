@@ -60,3 +60,23 @@ Uso post porque con get todo lo que escribes (nombre, correo, teléfono…) sale
 
 ### Qué he hecho en esta unidad
 He metido en guitarras.html una tabla para comparar cinco guitarras, con rowspan, colspan y todo eso. También he hecho la página de contacto con un formulario para que me escriban, y la he enlazado desde el index. Al final lo he pasado por el validador y no ha dado ningún error.
+
+## Tarea 6-7 · HTML5 semántico
+
+### Qué he hecho
+He cambiado los div de index.html y guitarras.html por etiquetas semánticas: header con el nav dentro, main, section, article, aside y footer. En todas las páginas he puesto mi usuario en la meta author y la firma en el pie.
+
+En contacto.html he mejorado el formulario con tipos de input de HTML5 (email, tel, url, number, date, time y range), con placeholder, required, min, max y step. También he puesto un pattern para el código postal con su title y una barra progress con lo que llevo aprendido de flamenco.
+
+En el index he metido un vídeo de Paco de Lucía y Camarón con controls, poster y dos source (mp4 y webm), una galería con dos figure y figcaption, y unas preguntas frecuentes con details y summary.
+
+### Validación W3C
+| Página | Errores del validador | Cómo lo corregí |
+|---|---|---|
+| index.html | 0 | No tuvo errores |
+| guitarras.html | 0 | No tuvo errores |
+| guitarristas.html | 0 | No tuvo errores |
+| accesorios.html | 0 | No tuvo errores |
+| contacto.html | 0 | No tuvo errores |
+
+Las capturas están en la carpeta capturas.
