@@ -7,105 +7,111 @@
   <title>Mis guitarras | Guitarras Serrano</title>
   <meta name="description" content="Datos de 3 guitarras: marca, tipo y precio de cada una.">
   <meta name="keywords" content="guitarra, flamenco, guitarra española, Modesto Malla, Conde Hermanos">
-  <meta name="author" content="Antonio Serrano Hernández">
+  <meta name="author" content="serraaa-ash">
 </head>
 
 <body>
-  <!-- NAV: aquí irá el menú (UD4) -->
-
-  <!-- Cabecera: título y presentación -->
-  <div>
+  <header>
     <h1>Mis guitarras</h1>
     <p>Aquí te enseño las tres guitarras de mi lista: la mía, la que me gustaría tener y la de Paco de Lucía.</p>
-  </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="guitarras.html">Mis guitarras</a></li>
+        <li><a href="guitarristas.html">Guitarristas</a></li>
+        <li><a href="accesorios.html">Accesorios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <!-- Sección: las guitarras de datos.xml -->
-  <div>
-    <h2>Mis 3 guitarras</h2>
+  <main>
+    <section>
+      <h2>Mis 3 guitarras</h2>
 
-    <!-- Guitarra G01 -->
-    <div>
-      <h3>Ritmo</h3>
-      <p>Tipo: española. Precio: 399.99 &euro;.</p>
-      <p>Es mi guitarra, con la que empecé a tocar hace un año.</p>
-    </div>
+      <article>
+        <h3>Ritmo</h3>
+        <p>Tipo: española. Precio: 399.99 &euro;.</p>
+        <p>Es mi guitarra, con la que empecé a tocar hace un año.</p>
+      </article>
 
-    <!-- Guitarra G02 -->
-    <div>
-      <h3>Modesto Malla</h3>
-      <p>Tipo: flamenca. Precio: 535.00 &euro;. Es mi favorita.</p>
-      <p>Es el modelo Diego del Morao en color rojo, la guitarra que me gustaría tener.</p>
-    </div>
+      <article>
+        <h3>Modesto Malla</h3>
+        <p>Tipo: flamenca. Precio: 535.00 &euro;. Es mi favorita.</p>
+        <p>Es el modelo Diego del Morao en color rojo, la guitarra que me gustaría tener.</p>
+      </article>
 
-    <!-- Guitarra G03 -->
-    <div>
-      <h3>Conde Hermanos</h3>
-      <p>Tipo: flamenca. Precio: 10500.00 &euro;.</p>
-      <p>Es una reedición de la guitarra que tocó Paco de Lucía durante casi toda su carrera.</p>
-    </div>
-  </div>
-  <hr>
+      <article>
+        <h3>Conde Hermanos</h3>
+        <p>Tipo: flamenca. Precio: 10500.00 &euro;.</p>
+        <p>Es una reedición de la guitarra que tocó Paco de Lucía durante casi toda su carrera.</p>
+      </article>
+    </section>
 
-  <!-- Sección: tabla comparativa -->
-  <div>
-    <h2>Comparativa de guitarras</h2>
+    <section>
+      <h2>Comparativa de guitarras</h2>
+      <table>
+        <caption>Comparativa de guitarras españolas y flamencas</caption>
+        <colgroup>
+          <col>
+          <col span="3">
+        </colgroup>
+        <thead>
+          <tr>
+            <th scope="col">Tipo</th>
+            <th scope="col">Modelo</th>
+            <th scope="col">Marca</th>
+            <th scope="col">Precio (&euro;)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2">Española</td>
+            <td>Mi guitarra</td>
+            <td>Ritmo</td>
+            <td>399.99</td>
+          </tr>
+          <tr>
+            <td>1C HT</td>
+            <td>Alhambra</td>
+            <td>340.00</td>
+          </tr>
+          <tr>
+            <td rowspan="3">Flamenca</td>
+            <td>Diego del Morao</td>
+            <td>Modesto Malla</td>
+            <td>535.00</td>
+          </tr>
+          <tr>
+            <td>10Fc Piñana</td>
+            <td>Alhambra</td>
+            <td>1907.10</td>
+          </tr>
+          <tr>
+            <td>Reedición 1975</td>
+            <td>Conde Hermanos</td>
+            <td>10500.00</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">Precio medio</td>
+            <td>2736.42</td>
+          </tr>
+        </tfoot>
+      </table>
+    </section>
+  </main>
 
-    <!-- Tabla con 5 guitarras españolas y flamencas: tipo, modelo, marca y precio en euros -->
-    <table>
-      <caption>Comparativa de guitarras españolas y flamencas</caption>
-      <colgroup>
-        <col>
-        <col span="3">
-      </colgroup>
-      <thead>
-        <tr>
-          <th scope="col">Tipo</th>
-          <th scope="col">Modelo</th>
-          <th scope="col">Marca</th>
-          <th scope="col">Precio (&euro;)</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td rowspan="2">Española</td>
-          <td>Mi guitarra</td>
-          <td>Ritmo</td>
-          <td>399.99</td>
-        </tr>
-        <tr>
-          <td>1C HT</td>
-          <td>Alhambra</td>
-          <td>340.00</td>
-        </tr>
-        <tr>
-          <td rowspan="3">Flamenca</td>
-          <td>Diego del Morao</td>
-          <td>Modesto Malla</td>
-          <td>535.00</td>
-        </tr>
-        <tr>
-          <td>10Fc Piñana</td>
-          <td>Alhambra</td>
-          <td>1907.10</td>
-        </tr>
-        <tr>
-          <td>Reedición 1975</td>
-          <td>Conde Hermanos</td>
-          <td>10500.00</td>
-        </tr>
-      </tbody>
-      <tfoot>
-        <tr>
-          <td colspan="3">Precio medio</td>
-          <td>2736.42</td>
-        </tr>
-      </tfoot>
-    </table>
-  </div>
-  <!-- Pie de página -->
-  <div>
+  <aside>
+    <h2>¿Sabías que…?</h2>
+    <p>La guitarra flamenca blanca lleva aros y fondo de ciprés y suena más brillante; la negra los lleva de palosanto y suena más profunda.</p>
+  </aside>
+
+  <footer>
     <p>&copy; 2026 Antonio Serrano</p>
-  </div>
+    <p id="firma-serraaa-ash">© 2026 serraaa-ash</p>
+  </footer>
 </body>
 
 </html>
